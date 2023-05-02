@@ -7,6 +7,8 @@ db.authenticate()
   .then(
     app.listen(PORT, () => {
       console.log("Database connection successful");
+      console.log("PORT", PORT);
+      console.log("db", db);
     })
   )
   .catch((err) => {
