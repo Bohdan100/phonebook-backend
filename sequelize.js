@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize("phonebook", "root", null, {
-  host: "localhost",
+  host: "http://localhost",
   dialect: "mariadb",
 });
 
